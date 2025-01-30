@@ -1,0 +1,64 @@
+.search-bar {
+  background-color: rgb(200, 191, 191);
+  margin-top: 5px;
+  border: 1px solid #DFD3C3;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px; // İç boşluk ekleyin
+
+  .blood-group {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+
+    li {
+      list-style: none;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &:hover {
+        color: #a07904;
+        text-decoration: wavy;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .input {
+    position: relative; // Gerekli
+    //flex-grow: 4; // Arama çubuğunun esnek olmasını sağlar
+
+    input {
+      // padding: 5px 30px 5px 10px; // Sağda simge için boşluk
+      // border-radius: 5px;
+      // border: 1px solid #8D493A;
+      // width: 100%; // Genişliği %100 yapın
+      width: 265px;
+      padding: 5px 30px;
+      padding-left: 50px;
+      border-radius: 5px;
+      border: 1px solid #1a0c03;
+    }
+
+    .scope {
+      position: absolute;
+      z-index: 1;
+      left: 5px;
+      color: #5c0404;
+      top: 5px;
+
+    }
+
+    // .search-icon {
+    //   position: absolute;
+    //   right: 10px; // Simgenin konumu
+    //   top: 50%; // Dikey merkezleme
+    //   transform: translateY(-50%); // Dikey merkezleme
+    //   color: #888; // Simge rengi
+    //   font-size: 18px;
+    //   pointer-events: none; // Simgeye tıklanamaz hale getir
+    // }
+  }
+}

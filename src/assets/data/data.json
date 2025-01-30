@@ -1,0 +1,247 @@
+{
+  "persons": [
+    {
+      "name": "Ahmet",
+      "surname": "Yılmaz",
+      "birthdate": "25.06.1996",
+      "eposta": "ahmet@mail.com",
+      "phoneNumber": "05362458569",
+      "city": "Ankara",
+      "bloodGroup": "A RH+",
+      "description": "Hastalığı yoktur.",
+      "image": "https://w7.pngwing.com/pngs/647/460/png-transparent-computer-icons-open-person-family-icon-black-silhouette-black-white-people-thumbnail.png",
+      "donationCount": "4",
+      "lastDonationDate": "2023-08-06",
+      "previousDonationDates": [
+        "2023-08-18",
+        "2023-08-05",
+        "2023-08-06"
+      ],
+      "id": "1",
+      "isDeleted": true
+    },
+    {
+      "name": "Mehmet",
+      "surname": "Çelik",
+      "birthdate": "15.11.1999",
+      "eposta": "mehmet@mail.com",
+      "phoneNumber": "05362458569",
+      "city": "Çankırı",
+      "bloodGroup": "B RH-",
+      "description": "Hastalığı yoktur.",
+      "image": "https://w7.pngwing.com/pngs/647/460/png-transparent-computer-icons-open-person-family-icon-black-silhouette-black-white-people-thumbnail.png",
+      "donationCount": 1,
+      "previousDonationDates": [
+        "2024-02-20",
+        null,
+        null
+      ],
+      "id": "2",
+      "isDeleted": true
+    },
+    {
+      "id": "3",
+      "name": "Emre",
+      "surname": "Çelik",
+      "birthdate": "1999-11-25",
+      "eposta": "emre@mail.com",
+      "phoneNumber": "05342695968",
+      "city": "Bingöl",
+      "bloodGroup": "0 RH+",
+      "description": "Herhangi bir hastalığı yoktur",
+      "image": "https://mgz.pankobirlik.com.tr//Dosyalar/24/Y%C3%B6netim%20Kurulu/vesikalil.png",
+      "donationCount": 3,
+      "donationDates": [
+        "2023-01-10",
+        "2023-07-25",
+        "2024-04-05"
+      ],
+      "previousDonationDates": [
+        "2023-01-10",
+        "2023-07-25",
+        "2024-04-05"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ayşe",
+      "surname": "Kara",
+      "birthdate": "1994-02-15",
+      "eposta": "ayse.kara@mail.com",
+      "phoneNumber": "05342234567",
+      "city": "İzmir",
+      "bloodGroup": "A RH+",
+      "description": "Düzenli kan bağışçısıdır.",
+      "image": "https://randomuser.me/api/portraits/women/68.jpg",
+      "donationCount": 5,
+      "donationDates": [
+        "2021-05-01",
+        "2022-06-15",
+        "2022-11-30",
+        "2023-03-20",
+        "2023-12-10"
+      ],
+      "previousDonationDates": [
+        "2021-05-01",
+        "2022-06-15",
+        "2022-11-30",
+        "2023-03-20",
+        "2023-12-10"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Ali",
+      "surname": "Demir",
+      "birthdate": "1996-07-10",
+      "eposta": "ali.demir@mail.com",
+      "phoneNumber": "05343321234",
+      "city": "Ankara",
+      "bloodGroup": "B RH-",
+      "description": "Düzenli olarak kan bağışında bulunur.",
+      "image": "https://randomuser.me/api/portraits/men/45.jpg",
+      "donationCount": 6,
+      "lastDonationDate": "2024-11-09",
+      "previousDonationDates": [
+        "2024-11-09"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Emine",
+      "surname": "Yıldız",
+      "birthdate": "1989-03-22",
+      "eposta": "emine.yildiz@mail.com",
+      "phoneNumber": "05349998877",
+      "city": "Adana",
+      "bloodGroup": "0 RH+",
+      "description": "Sağlıklı bir kan bağışçısıdır.",
+      "image": "https://randomuser.me/api/portraits/women/30.jpg",
+      "donationCount": 2,
+      "donationDates": [
+        "2022-01-10",
+        "2023-08-25"
+      ],
+      "previousDonationDates": [
+        "2022-01-10",
+        "2023-08-25"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Mehmet",
+      "surname": "Çelik",
+      "birthdate": "1984-09-05",
+      "eposta": "mehmet.celik@mail.com",
+      "phoneNumber": "05343334444",
+      "city": "İstanbul",
+      "bloodGroup": "AB RH+",
+      "description": "Sağlıklı ve düzenli kan bağışçısıdır.",
+      "image": "https://randomuser.me/api/portraits/men/10.jpg",
+      "donationCount": "8",
+      "lastDonationDate": "2024-11-10",
+      "previousDonationDates": "2"
+    },
+    {
+      "id": "8",
+      "name": "Fatma",
+      "surname": "Öztürk",
+      "birthdate": "1997-12-20",
+      "eposta": "fatma.ozturk@mail.com",
+      "phoneNumber": "05341231234",
+      "city": "Eskişehir",
+      "bloodGroup": "A RH-",
+      "description": "İlk defa kan bağışı yapacak.",
+      "image": "https://randomuser.me/api/portraits/women/15.jpg",
+      "donationCount": 0,
+      "lastDonationDate": "2024-11-07",
+      "previousDonationDates": [
+        "2024-11-07"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Merve",
+      "surname": "Çürük",
+      "age": "",
+      "birthdate": "1999-09-27",
+      "eposta": "merveqmail.com",
+      "phoneNumber": "05393427557",
+      "city": "Ankara",
+      "bloodGroup": "0 RH+",
+      "description": "herhangi bir hastalığı yoktur",
+      "image": "/src/assets/img/DefaultPerson1.png",
+      "donationCount": "1",
+      "lastDonationDate": "2024-11-07",
+      "previousDonationDates": []
+    },
+    {
+      "id": "10",
+      "name": "Çağla",
+      "surname": "Çağlar",
+      "birthdate": "1999-03-04",
+      "eposta": "cagla@mail.com",
+      "phoneNumber": "05363659856",
+      "city": "Bayburt",
+      "bloodGroup": "0 RH-",
+      "description": "Herhangi bir hastalığı yoktur",
+      "image": "/src/assets/img/DefaultPerson1.png",
+      "donationCount": "1",
+      "lastDonationDate": "2024-11-11",
+      "previousDonationDates": []
+    },
+    {
+      "id": "11",
+      "name": "Ali",
+      "surname": "Deniz",
+      "birthdate": "1996-05-21",
+      "eposta": "ali@mail.com",
+      "phoneNumber": "05326548965",
+      "city": "Antalya",
+      "bloodGroup": "AB RH-",
+      "description": "Astım",
+      "image": "/src/assets/img/DefaultPerson1.png",
+      "donationCount": "1",
+      "lastDonationDate": "2024-11-12",
+      "previousDonationDates": []
+    }
+  ],
+  "bloodGroup": [
+    {
+      "id": "0",
+      "name": "All Persons"
+    },
+    {
+      "id": "1",
+      "name": "0 RH+"
+    },
+    {
+      "id": "2",
+      "name": "0 RH-"
+    },
+    {
+      "id": "3",
+      "name": "A RH+"
+    },
+    {
+      "id": "4",
+      "name": "A RH-"
+    },
+    {
+      "id": "5",
+      "name": "B RH+"
+    },
+    {
+      "id": "6",
+      "name": "B RH-"
+    },
+    {
+      "id": "7",
+      "name": "AB RH+"
+    },
+    {
+      "id": "8",
+      "name": "AB RH-"
+    }
+  ]
+}

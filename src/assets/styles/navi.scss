@@ -1,0 +1,105 @@
+
+
+nav {
+    background: linear-gradient(#f8f4f2, #5d5e58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    .brand {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 50px;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .project-name{
+            text-decoration: none;
+            h3 {
+                margin-left: 0.5rem;
+                font-family: "Itim", serif;
+                color: #4b1e06;
+               
+            }
+        }
+       
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+        li {
+            margin-right: 1rem;
+            a {
+                font-family: "Itim", serif;
+                font-size: 18px;
+                color: #272205;
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+                border-radius: 20px;
+                transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #a48e88b4;
+                    color: #fff;
+                }
+
+                &.active {
+                    color: orangered;
+                }
+            }
+        }
+    }
+
+    .login {
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                border: 3px solid rgb(83, 78, 64);
+                object-fit: cover;
+             
+
+            }
+        }
+        .bn3637 {
+            background-color: #cfbfbc77;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 2rem;
+            font-weight: 700;
+            font-family: "Itim", serif;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            color: #804b2e;
+            backface-visibility: hidden;
+            border: 0.2rem solid #9e918e77;
+            border-radius: 3rem;
+            margin-left: 4px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .bn38 {
+            border-color: transparent;
+
+            &:hover {
+                background-color: #a48e889a;
+                color: #272205;
+            }
+        }
+
+       
+    }
+}

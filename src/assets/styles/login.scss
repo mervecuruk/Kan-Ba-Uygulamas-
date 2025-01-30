@@ -1,0 +1,58 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(190, 165, 165);
+    font-family: "Itim", serif;
+    background-color: #f5eeee6c;
+  
+    h3 {
+      text-align: center;
+      color: #333;
+    }
+  
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border: 1px solid #796868;
+      font-size: 1rem;
+    }
+  
+    .password-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+  
+      .password {
+        flex: 1;
+      }
+  
+      .eye-icon {
+        position: absolute;
+        right: 10px;
+        color: #666;
+        font-size: 1.2rem;
+      }
+    }
+  
+    button {
+
+      width: 100px;
+      padding: 10px;
+      background-color: #5c1a11bd;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #9f684f;
+      }
+    }
+  }
